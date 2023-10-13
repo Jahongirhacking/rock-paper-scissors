@@ -93,7 +93,6 @@ const helpTable = TableGenerator.generateTable(moves)
 console.table(helpTable)
 
 // Game Menu
-console.log(`HMAC key: ${result.key}`)
 console.log('Available moves:')
 moves.forEach((move, index) => console.log(`${index + 1} - ${move}`))
 console.log('0 - exit')
